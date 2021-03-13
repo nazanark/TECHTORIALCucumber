@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="4" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="14.541">
+<testcase classname="Etsy search With Scenario Outline" name="Etsy search Validation" time="8.663">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com/".........................passed
+When the search with "Hat"..................................................passed
+Then the user should see the title "Hat | Etsy".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Etsy search With Scenario Outline" name="Etsy search Validation 2" time="3.034">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com/".........................passed
+When the search with "Chocolate"............................................passed
+Then the user should see the title "Chocolate | Etsy".......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Etsy search With Scenario Outline" name="Etsy search Validation 3" time="2.403">
+<system-out><![CDATA[Given the user navigates to "https://www.etsy.com/".........................passed
+When the search with "Pin"..................................................passed
+Then the user should see the title "Pin | Etsy".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validation of Products Page" name="Validation of New Product Creation" time="0.011">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user navigates to product website home page.......................undefined
+When the user enters the product info "MyMoney" and "4".....................skipped
+Then the user enters the address info "David", "2200 E Devon", "Des Plaines", "IL" , "60018".skipped
+And the user enters the card info "Visa", "123456678", "04/24"..............skipped
+Then user validates the success message.....................................skipped
+Then the user validates product details "MyMoney", "4", "David", "2200 E Devon", "Des Plaines", "IL", "60018", "Visa", "123456678", "04/24".skipped
+]]></failure>
+</testcase>
+<testcase classname="Validation of Products Page" name="Validation of New Product Creation 2" time="0.008">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user navigates to product website home page.......................undefined
+When the user enters the product info "FamilyAlbum" and "2".................skipped
+Then the user enters the address info "Jack", "2344 N North", "Austin", "TX" , "90007".skipped
+And the user enters the card info "Master Card", "123456478", "08/21".......skipped
+Then user validates the success message.....................................skipped
+Then the user validates product details "FamilyAlbum", "2", "Jack", "2344 N North", "Austin", "TX", "90007", "Master Card", "123456478", "08/21".skipped
+]]></failure>
+</testcase>
+<testcase classname="Validation of Products Page" name="Validation of New Product Creation 3" time="0.006">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user navigates to product website home page.......................undefined
+When the user enters the product info "ScreenSaver" and "5".................skipped
+Then the user enters the address info "Laura", "5432 W East", "Chicago", "IL" , "60066".skipped
+And the user enters the card info "American Express", "123456658", "04/22"..skipped
+Then user validates the success message.....................................skipped
+Then the user validates product details "ScreenSaver", "5", "Laura", "5432 W East", "Chicago", "IL", "60066", "American Express", "123456658", "04/22".skipped
+]]></failure>
+</testcase>
+<testcase classname="Validation of Products Page" name="Validation of New Product Creation 4" time="0.004">
+<failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given the user navigates to product website home page.......................undefined
+When the user enters the product info "FamilyAlbum" and "2".................skipped
+Then the user enters the address info "Jack", "2344 N North", "Austin", "TX" , "90007".skipped
+And the user enters the card info "Master Card", "123456478", "08/21".......skipped
+Then user validates the success message.....................................skipped
+Then the user validates product details "FamilyAlbum", "2", "Jack", "2344 N North", "Austin", "TX", "90007", "Master Card", "123456478", "08/21".skipped
+]]></failure>
+</testcase>
+</testsuite>

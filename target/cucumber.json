@@ -1,0 +1,1485 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": ": Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4189000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:16.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Etsy search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4387000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the search with \"Hat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Hat | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hat | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": ": Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1368000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:24.819Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Etsy search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1654000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the search with \"Chocolate\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chocolate\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Chocolate | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chocolate | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": ": Navigate",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 919000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "the user navigates to \"https://www.etsy.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.etsy.com/\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_navigates_to(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:27.857Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Etsy search Validation",
+        "description": "",
+        "id": "etsy-search-with-scenario-outline;etsy-search-validation;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1462000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "the search with \"Pin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin\"",
+                  "offset": 16
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_search_with(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "the user should see the title \"Pin | Etsy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pin | Etsy\"",
+                  "offset": 30
+                }
+              ],
+              "location": "steps.com.etsy.EtsySearchSteps.the_user_should_see_the_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "Etsy search With Scenario Outline",
+    "description": "",
+    "id": "etsy-search-with-scenario-outline",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.etsy/EtsySearchOutline.feature",
+    "tags": [
+      {
+        "name": "@outline",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-13T18:54:30.297Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "the user navigates to product website home page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "the user enters the product info \"MyMoney\" and \"4\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "the user enters the address info \"David\", \"2200 E Devon\", \"Des Plaines\", \"IL\" , \"60018\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "the user enters the card info \"Visa\", \"123456678\", \"04/24\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user validates the success message",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "the user validates product details \"MyMoney\", \"4\", \"David\", \"2200 E Devon\", \"Des Plaines\", \"IL\", \"60018\", \"Visa\", \"123456678\", \"04/24\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:30.325Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "the user navigates to product website home page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "the user enters the product info \"FamilyAlbum\" and \"2\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "the user enters the address info \"Jack\", \"2344 N North\", \"Austin\", \"TX\" , \"90007\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "the user enters the card info \"Master Card\", \"123456478\", \"08/21\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user validates the success message",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "the user validates product details \"FamilyAlbum\", \"2\", \"Jack\", \"2344 N North\", \"Austin\", \"TX\", \"90007\", \"Master Card\", \"123456478\", \"08/21\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:30.343Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "the user navigates to product website home page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "the user enters the product info \"ScreenSaver\" and \"5\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "the user enters the address info \"Laura\", \"5432 W East\", \"Chicago\", \"IL\" , \"60066\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "the user enters the card info \"American Express\", \"123456658\", \"04/22\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user validates the success message",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "the user validates product details \"ScreenSaver\", \"5\", \"Laura\", \"5432 W East\", \"Chicago\", \"IL\", \"60066\", \"American Express\", \"123456658\", \"04/22\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-13T18:54:30.360Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.beforeScenario()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.before()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Validation of New Product Creation",
+        "description": "",
+        "id": "validation-of-products-page;validation-of-new-product-creation;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.hook.Hooks.after()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.com.etsy.EtsySearchSteps.afterScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "the user navigates to product website home page",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "the user enters the product info \"FamilyAlbum\" and \"2\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "the user enters the address info \"Jack\", \"2344 N North\", \"Austin\", \"TX\" , \"90007\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "the user enters the card info \"Master Card\", \"123456478\", \"08/21\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "user validates the success message",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.beforeStep()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "the user validates product details \"FamilyAlbum\", \"2\", \"Jack\", \"2344 N North\", \"Austin\", \"TX\", \"90007\", \"Master Card\", \"123456478\", \"08/21\"",
+            "match": {},
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.com.etsy.EtsySearchSteps.afterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@products"
+          },
+          {
+            "name": "@outline"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Products Page",
+    "description": "",
+    "id": "validation-of-products-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.products/productsScenario.feature",
+    "tags": []
+  }
+]
