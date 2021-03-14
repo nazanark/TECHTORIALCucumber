@@ -73,26 +73,26 @@ public class OrderPage {
     @FindBy(id = "ctl00_MainContent_fmwOrder_cardList_2")
     public WebElement americanExpressRadio;
 
-    public void selectCard(String cardType) {
-        cardType = cardType.toLowerCase();
+        public void selectCard(String cardType) {
+            cardType = cardType.toLowerCase();
 
-        switch (cardType) {
-            case "visa":
-                visaRadio.click();
-                break;
+            switch (cardType) {
+                case "visa":
+                    visaRadio.click();
+                    break;
 
-            case "master card":
-                masterCardRadio.click();
-                break;
+                case "master card":
+                    masterCardRadio.click();
+                    break;
 
-            case "american express":
-                americanExpressRadio.click();
-                break;
+                case "american express":
+                    americanExpressRadio.click();
+                    break;
 
-            default:
-                System.out.println("Card name is not correct. Please change card name");
-                break;
-        }
+                default:
+                    System.out.println("Card name is not correct. Please change card name");
+                    break;
+            }
     }
 
 
