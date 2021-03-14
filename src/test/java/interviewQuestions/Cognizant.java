@@ -37,7 +37,7 @@ public class Cognizant {
         }
 
         for(String name: output.keySet()) {
-            System.out.println(output.get(name));;
+            System.out.println(output.get(name));
         }
     }
 
