@@ -7,7 +7,7 @@ Feature: WebOrder Page Food Order
     When the user selects "Office" option
     Then the user is on the group order page
     When the user send invitees note "Test"
-    And the user send invite list
+    And the user send invite list "email" and "email"
     | Kushal@gmail.com |
     | Priyanka@gmail.com |
     | patel@gmail.com    |

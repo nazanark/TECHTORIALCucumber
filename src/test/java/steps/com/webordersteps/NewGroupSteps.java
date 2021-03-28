@@ -51,7 +51,7 @@ public class NewGroupSteps {
     @Then("the user send invite list {string} and {string}")
     public void the_user_send_invite_list_and(String email1, String email2) {
         groupOrderPage=new GroupOrderPage(driver);
-        groupOrderPage.sendInvitelist(email1+","+email2);
+        groupOrderPage.sendInvitelist(email1);
         groupOrderPage.clickCreateGroup();
     }
     @Then("the user validate {string} text")

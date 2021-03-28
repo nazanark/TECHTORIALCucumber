@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
                 "junit:target/cucumber.xml",
                 "rerun:target/rerun.txt"},
         features = "src/test/resources/com.products/productsScenario.feature",
-        glue = "steps/com",
+        glue = "steps",
         dryRun = false,
         tags = "@products"
 )

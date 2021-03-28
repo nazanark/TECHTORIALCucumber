@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
                     "json:target/cucumber.json",
                     "junit:target/cucumber.xml",
                     "rerun:target/rerun.txt"},
-            features ="src/test/resources",
-            glue = {"steps/com/etsy","steps/hook"},
+            features ="src/test/resources/com.etsy",
+            glue = {"steps","steps/hook"},
             dryRun = false,
             tags = "@outline"
 )
