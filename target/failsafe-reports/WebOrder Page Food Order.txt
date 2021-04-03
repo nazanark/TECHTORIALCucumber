@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: WebOrder Page Food Order
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.255 s <<< FAILURE! - in WebOrder Page Food Order
+Validation of Food Order for Office(WebOrder Page Food Order)  Time elapsed: 2.255 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [the user send invite list {string} and {string}] is defined with 2 parameters at 'steps.com.webordersteps.NewGroupSteps.the_user_send_invite_list_and(java.lang.String,java.lang.String)'.
+However, the gherkin step has 3 arguments:
+ * "email"
+ * "email"
+ * Table:
+      | Kushal@gmail.com   |
+      | Priyanka@gmail.com |
+      | patel@gmail.com    |
+      | naveen@gmail.com   |
+      | gopal@gmail.com    |
+      | sandeep@gmail.com  |
+      | ajeesh@gmail.com   |
+      | sameer@gmail.com   |
+
+Step text: the user send invite list "email" and "email"
+
